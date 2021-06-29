@@ -1,0 +1,284 @@
+<html>
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <title>Portfolio1</title>
+    <link rel="stylesheet" href="arquivos/assets/css/template.css">
+
+    <script>
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!--Seção para a logo do menu-->
+            <div class="logo">
+                <a href=""> <img src="arquivos/assets/images/logo.png" alt=""></a>
+            </div>
+            <!--Seção para o menu de navegação-->
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Jobs</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Viva uma incrivel<br> experiência unica</h1>
+                <h2>MediCenter é uma empresa<br> incrivel para todos</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Serviços</div>
+                    <div class="banner_desc">Conheça mais sobre os nossos serviços e planos de saúde </div>
+                    <a href="" class="button">Saiba mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Consultas</div>
+                    <div class="banner_desc">Venha conhecer melhor nossos medicos e faça uma consulta</div>
+                    <a href="" class="button">Saiba Mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Emergências</div>
+                    <div class="hour">Segunda 8:00 - 17:00 </div>
+                    <hr style="color: white;">
+                    <div class="hour">Terça-feira 8:00 - 17:00</div>
+                    <hr style="color: white;">
+                    <div class="hour">Quarta-feira 8:00 - 17:00</div>
+                    <hr style="color: white;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <!--Uma div criada apenas para o Titulo, E outra criada apenas para a barrinha em baixo do texto-->
+                        <div class="widget_title_text">Ultimas noticias</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+
+                        <article>
+                            <a href="">
+                            <div class="news">
+                                <div class="news_posted_at">12 JAN 21</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="arquivos/assets/images/dr.jpg" alt="Imagem Consulta+">
+                            </div>
+                            <div class="news_title">
+                                Odontologia
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non felis auctor, porta orci nec, tristique nisl. Fusce neque dolor, tincidunt sed neque a, rhoncus ullamcorper magna. Vivamus quis feugiat tellus. Sed augue enim, hendrerit volutpat tincidunt nec, sodales et lectus. Pellentesque ipsum libero, vulputate eu molestie in, fermentum ac massa. 
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news">
+                                <div class="news_posted_at">12 JAN 21</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="arquivos/assets/images/dr.jpg" alt="Imagem Consulta+">
+                            </div>
+                            <div class="news_title">
+                                Consultas
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non felis auctor, porta orci nec, tristique nisl. Fusce neque dolor, tincidunt sed neque a, rhoncus ullamcorper magna. Vivamus quis feugiat tellus. Sed augue enim, hendrerit volutpat tincidunt nec, sodales et lectus. Pellentesque ipsum libero, vulputate eu molestie in, fermentum ac massa. 
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news">
+                                <div class="news_posted_at">12 JAN 21</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="arquivos/assets/images/dr.jpg" alt="Imagem Consulta+">
+                            </div>
+                            <div class="news_title">
+                                Cirurgias
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non felis auctor, porta orci nec, tristique nisl. Fusce neque dolor, tincidunt sed neque a, rhoncus ullamcorper magna. Vivamus quis feugiat tellus. Sed augue enim, hendrerit volutpat tincidunt nec, sodales et lectus. Pellentesque ipsum libero, vulputate eu molestie in, fermentum ac massa. 
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news">
+                                <div class="news_posted_at">12 JAN 21</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumbnail">
+                                <img src="arquivos/assets/images/dr.jpg" alt="Imagem Consulta+">
+                            </div>
+                            <div class="news_title">
+                                Exames
+                            </div>
+                            <div class="news_resume">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non felis auctor, porta orci nec, tristique nisl. Fusce neque dolor, tincidunt sed neque a, rhoncus ullamcorper magna. Vivamus quis feugiat tellus. Sed augue enim, hendrerit volutpat tincidunt nec, sodales et lectus. Pellentesque ipsum libero, vulputate eu molestie in, fermentum ac massa. 
+                            </div>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Nosso departamento</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <a href="">
+                        <div class="box"></div>
+                        </a>
+                        <a href="">
+                        <div class="box"></div>
+                        </a>
+                        <a href="">
+                        <div class="box"></div>
+                        </a>
+                        <a href="">
+                        <div class="box"></div>
+                        </a>
+                        <a href="">
+                        <div class="box"></div>
+                        </a>
+                        <a href="">
+                        <div class="box"></div>
+                        </a>
+                    </div>
+                        <div class="widget_title">
+                            <div class="widget_title_text">Artigos</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                    <div class="widget_body">
+                        <div class="news_resume">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non felis auctor, porta orci nec, tristique nisl
+                        </div>
+                        <div class="row_text"></div>
+                        <div class="text_icon">
+                            Telefone: <strong>1-400-643-4300</strong>
+                        </div>
+                        <div class="row_text"></div>
+                        <div class="text_icon">
+                            email: <strong>contato@dominio.com.br</strong>
+                        </div>
+                        <div class="row_text"></div>
+                        <div class="text_icon">
+                           <strong> Acesse </strong> nosso <a href="">Link</a> e saiba mais
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    
+
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <div class="footer_title">Seguro saúde</div>
+                    <a href="">
+                    <div class="footer_text">Clique aqui e saiba mais →</div>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <div class="footer_title">Medicamentos</div>
+                    <a href="">
+                    <div class="footer_text">Clique aqui e saiba mais →</div>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <div class="footer_title">Compre Online</div>
+                    <a href="">
+                    <div class="footer_text">Clique aqui e saiba mais →</div>
+                    </a>
+                </div>
+            </div>
+        
+
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Conheça a clinica</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="footer_text_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non felis auctor, porta orci nec, tristique nisl. Fusce neque dolor, tincidunt sed neque a, rhoncus ullamcorper magna. Vivamus quis feugiat tellus.</div>
+                        <div class="footer_text_2">Endereço: rua abc, 1540 sala-08</div>
+                        <div class="footer_text_2">E-mail:contato@dominio.com.br</div>
+                        <div class="footer_text_2">Tel: (55)2244-4422</div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Ultimas postagens</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="footer_text" style="margin-top: 20px;">→ Ultimas postagens publicadas em nosso blog </div>
+                        <div style="color: cyan; font-size: 12px;">6 years ago</div>
+                        <div class="footer_text" style="margin-top: 20px;">→ Ultimas postagens publicadas em nosso blog </div>
+                        <div style="color: cyan; font-size: 12px;">6 years ago</div>
+                        <div class="footer_text" style="margin-top: 20px;">→ Ultimas postagens publicadas em nosso blog </div>
+                        <div style="color: cyan; font-size: 12px;">6 years ago</div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Ultimos tweets</div>
+                        <div class="widget_title_bar"></div>
+                        <div class="footer_text" style="margin-top: 20px; color: rgb(182, 182, 182);">#Ultimas postagens em nossa rede social no Twitter </div>
+                        <div style="color: cyan; font-size: 12px;">6 years ago</div>
+                        <div class="footer_text" style="margin-top: 20px; color: rgb(182, 182, 182);">#Ultimas postagens em nossa rede social no Twitter </div>
+                        <div style="color: cyan; font-size: 12px;">6 years ago</div>
+                        <div class="footer_text" style="margin-top: 20px; color: rgb(182, 182, 182);">#Ultimas postagens em nossa rede social no Twitter </div>
+                        <div style="color: cyan; font-size: 12px;">6 years ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                © copyright - Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
