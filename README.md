@@ -11,7 +11,7 @@
 Medicenter uma experiência unica, tenha acesso as melhores consultas e serviços, feito especialmente para você!
 
 
-Acesse o GITHUB PAGES:
+Acesse o site no **GITHUB PAGES:**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://henriquefurtado-dev.github.io/MediCenter/)
 
